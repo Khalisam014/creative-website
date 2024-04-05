@@ -1,11 +1,11 @@
-/*
+ /*
   Sama Khalid
   03/26/2024
   Section AD, Max Beard and Allan Tran
 
   This file is in charge of the style for the the about and main html structure of the website.
   I utilized it to make the website more organizaed and creative.
-*/
+ */
 
 body, html, .image-container {
   height: 100%;
@@ -103,8 +103,8 @@ section {
 .arrow {
   width: 100px;
   height: 100px;
-  top: 40.0%;
-  left: 39.0%;
+  top: 40%;
+  left: 39%;
 }
 
 .cat {

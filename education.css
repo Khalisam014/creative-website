@@ -14,6 +14,7 @@ body, #typing-container div, #welcome-title, .typing div, #typing-container {
 body, .typing div {
   white-space: nowrap;
 }
+
 body, #welcome-title, .typing div {
   border-right: 2px solid white;
 }
@@ -28,7 +29,7 @@ body, #welcome-container {
 
 body {
   background-color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', "Courier", monospace;
   font-size: 1em;
   margin: 0;
   padding: 0;
@@ -45,7 +46,6 @@ body {
   position: fixed;
   width: 100%;
   left: 0;
-
 }
 
 #welcome-title, .typing div {
@@ -91,6 +91,7 @@ body {
 .indent {
   text-indent: 30px;
 }
+
 .indent-more {
   text-indent: 60px;
 }
@@ -101,4 +102,3 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
-
