@@ -1,0 +1,104 @@
+  /* Sama Khalid
+  03/26/2024
+  Section AD, Max Beard, Allan Tran
+
+  This file is in charge of all the styling for the education
+  html file. I tried to also combine this with the other style sheet
+  however, it messed with the animation and I decided it would be best
+  to leave it as its own style sheet */
+
+body, #typing-container div, #welcome-title, .typing div, #typing-container {
+  overflow: hidden;
+}
+
+body, .typing div {
+  white-space: nowrap;
+}
+body, #welcome-title, .typing div {
+  border-right: 2px solid white;
+}
+
+body, #output {
+  color: white;
+}
+
+body, #welcome-container {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+#welcome-container, #welcome-container #welcome-title {
+  top: 0;
+}
+
+#welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+
+}
+
+#welcome-title, .typing div {
+  display: none;
+}
+
+#typing-container {
+  position: absolute;
+  left: 20px;
+  margin-top: 16px;
+}
+
+
+@keyframes blink-caret {
+  50% { border-color: white; }
+  100% { border-color: transparent; }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes typingTitle {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes typingContent {
+  0%, 100% { width: 0; }
+  100% { width: 100%; }
+}
+
+.red {color: red};
+.purple { color: purple; }
+.pink {color: pink;}
+.green {color: green;}
+.yellow{color: yellow;}
+.white{color: rgb(134, 134, 134)}
+
+.indent {
+  text-indent: 30px;
+}
+.indent-more {
+  text-indent: 60px;
+}
+
+#output {
+  background-color: #444;
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+

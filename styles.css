@@ -1,20 +1,115 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-  INSERT YOUR SECTION/TA NAME
+  Sama Khalid
+  03/26/2024
+  Section AD, Max Beard and Allan Tran
 
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  This file is in charge of the style for the the about and main html structure of the website.
+  I utilized it to make the website more organizaed and creative.
 */
 
-/*
-  Note: This body rule set is to get you started and does not count towards the CP1 requirements.
-  Feel free to change or remove any of these rules.
-*/
+body, html, .image-container {
+  height: 100%;
+}
+
+body, .image-container {
+  align-items: center;
+}
+
+.image-container img, .click-circle, .dot, .arrow, .cat {
+  position: absolute;
+}
+
+body, html {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
 body {
-  background-color: rgb(156, 166, 243);
-  font-family: "Helvetica", sans-serif;
-  margin-left: auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+h1, h2, h3 {
+  color: beige;
+}
+
+section ul {
+  color: aquamarine;
+}
+
+h1 + p {
+  color: brown;
+}
+
+body.image-background {
+  /*The image I currently am using was created by me, however,
+  the original image I based it on can't be found anymore*/
+  background-image: url('background.jpg');
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+section {
+  width: 40%;
+  margin-left: 30%;
   margin-right: auto;
-  width: 80%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 10vw;
+  height: auto;
+  top: 80%;
+  left: 70%;
+  transform: translate(-50%, -50%) rotate(220deg);
+}
+
+.click-circle, .dot {
+  cursor: pointer;
+  z-index: 10;
+}
+
+.click-circle {
+  top: 58.7%;
+  left: 46.2%;
+}
+
+.click-circle img {
+  width: 70px;
+  height: 50px;
+  display: block;
+}
+
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 51%;
+  left: 42%;
+  text-decoration: none;
+}
+
+.arrow, .cat {
+  z-index: 9;
+}
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  top: 40.0%;
+  left: 39.0%;
+}
+
+.cat {
+  width: 150px;
+  height: 150px;
+  top: 59.7%;
+  left: 15.2%;
 }
