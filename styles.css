@@ -1,11 +1,11 @@
- /*
-  Sama Khalid
-  03/26/2024
-  Section AD, Max Beard and Allan Tran
+/*
+Sama Khalid
+03/26/2024
+Section AD, Max Beard and Allan Tran
 
-  This file is in charge of the style for the the about and main html structure of the website.
-  I utilized it to make the website more organizaed and creative.
- */
+This file is in charge of the style for the the about and main html structure of the website.
+I utilized it to make the website more organizaed and creative.
+*/
 
 body, html, .image-container {
   height: 100%;
@@ -42,8 +42,8 @@ h1 + p {
 }
 
 body.image-background {
-  /*The image I currently am using was created by me, however,
-  the original image I based it on can't be found anymore*/
+  /* The image I currently am using was created by me, however,
+  the original image I based it on can't be found anymore */
   background-image: url('background.jpg');
   background-size: 100% 100%;
   background-attachment: scroll;

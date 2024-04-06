@@ -1,11 +1,11 @@
-  /* Sama Khalid
-  03/26/2024
-  Section AD, Max Beard, Allan Tran
+/* Sama Khalid
+03/26/2024
+Section AD, Max Beard, Allan Tran
 
-  This file is in charge of all the styling for the education
-  html file. I tried to also combine this with the other style sheet
-  however, it messed with the animation and I decided it would be best
-  to leave it as its own style sheet */
+This file is in charge of all the styling for the education
+html file. I tried to also combine this with the other style sheet
+however, it messed with the animation and I decided it would be best
+to leave it as its own style sheet */
 
 body, #typing-container div, #welcome-title, .typing div, #typing-container {
   overflow: hidden;
@@ -58,10 +58,13 @@ body {
   margin-top: 16px;
 }
 
-
 @keyframes blink-caret {
-  50% { border-color: white; }
-  100% { border-color: transparent; }
+  50%{
+    border-color: white;
+  }
+  100%{
+    border-color: transparent;
+  }
 }
 
 @keyframes fadeOut {
@@ -72,8 +75,12 @@ body {
 }
 
 @keyframes typingTitle {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
 }
 
 @keyframes typingContent {
