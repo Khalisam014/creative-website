@@ -59,10 +59,10 @@ body {
 }
 
 @keyframes blink-caret {
-  50%{
+  50% {
     border-color: white;
   }
-  100%{
+  100% {
     border-color: transparent;
   }
 }
@@ -76,24 +76,40 @@ body {
 
 @keyframes typingTitle {
   from {
-    width: 0
+    width: 0;
   }
   to {
-    width: 100%
+    width: 100%;
   }
 }
 
 @keyframes typingContent {
-  0%, 100% { width: 0; }
-  100% { width: 100%; }
+  0%, 100% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-.red {color: red};
-.purple { color: purple; }
-.pink {color: pink;}
-.green {color: green;}
-.yellow{color: yellow;}
-.white{color: rgb(134, 134, 134)}
+.red {
+  color: red;
+}
+.purple {
+  color: purple;
+}
+.pink {
+  color: pink;
+}
+.green {
+  color: green;
+}
+.yellow{
+  color: yellow;
+}
+.white{
+  color: rgb(134, 134, 134);
+}
 
 .indent {
   text-indent: 30px;
